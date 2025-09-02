@@ -96,4 +96,8 @@ git tag v1.0.0
 ```
 
 ## 📜 Licencia
-MIT
+Cifuentes Bohorquez David Fernando 
+Corzo Salazar Alec Fabian
+Ibeth Stefanny Pulido Arias
+Hugo Andres Vergara Sanchez
+
