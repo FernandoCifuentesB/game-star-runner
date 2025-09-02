@@ -96,7 +96,7 @@ git tag v1.0.0
 ```
 
 ## Evidencia Conflicto resuelto 
-![Texto alternativo](https://github.com/AlecCorzo/star-runner-lite/blob/main/ImgError.jpeg)
+![Texto alternativo](https://github.com/FernandoCifuentesB/game-star-runner/blob/develop/ImgError.jpeg)
 
 El repositorio remoto estaba configurado con HTTPS en lugar de SSH, lo que generaba solicitudes de usuario/contraseña al hacer git push.
 
