@@ -7,7 +7,7 @@ import { KeyboardInputAdapter } from "./input/KeyboardInputAdapter.js";
 import { SimulatedInputAdapter } from "./input/SimulatedInputAdapter.js";
 
 import { defineMenuScene } from "./scenes/menu.js";
-import { defineCharacterScene } from "./scenes/characterSelect.js";
+import { defineCharacterScene } from "./scenes/characterSelection.js";
 import { defineHighScoresScene } from "./scenes/highScores.js";
 import { defineGameScene } from "./scenes/game.js";
 import { CONFIG } from "./config.js";
