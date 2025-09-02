@@ -1,0 +1,43 @@
+@startuml
+title Star Runner Lite - Diagrama (Facade, Adapter, IoC)
+
+interface IScoreService {
+  +getTop10(): Promise<List<Score>>
+  +saveScore(name, score, character): Promise<boolean>
+}
+
+class HttpScoreService implements IScoreService
+
+interface IInputAdapter {
+  +attach(k, actions): () => void
+}
+
+class KeyboardInputAdapter implements IInputAdapter
+class SimulatedInputAdapter implements IInputAdapter
+
+class GameFacade {
+  -k
+  -scoreService: IScoreService
+  -inputAdapter: IInputAdapter
+  -currentCharacter: string
+  +setCharacter(charKey)
+  +start()
+  +restart()
+  +saveScore(name, score)
+  +showMenu()
+  +showHighScores()
+}
+
+class Container {
+  +register(key, factory)
+  +resolve(key)
+}
+
+IScoreService <|.. HttpScoreService
+IInputAdapter <|.. KeyboardInputAdapter
+IInputAdapter <|.. SimulatedInputAdapter
+
+GameFacade --> IScoreService
+GameFacade --> IInputAdapter
+Container ..> GameFacade
+@enduml
