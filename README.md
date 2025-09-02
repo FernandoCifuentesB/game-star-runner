@@ -96,8 +96,8 @@ git tag v1.0.0
 ```
 
 ## 📜 Licencia
--Cifuentes Bohorquez David Fernando 
--Corzo Salazar Alec Fabian
--Pulido Arias Ibeth Stefanny
--Vergara Sanchez Hugo Andres 
+-Cifuentes Bohorquez David Fernando.
+-Corzo Salazar Alec Fabian.
+-Pulido Arias Ibeth Stefanny.
+-Vergara Sanchez Hugo Andres.
 
